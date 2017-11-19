@@ -87,8 +87,8 @@ peer_dataset = S2VTTestingDataset(data_dir + 'peer_review/feat')
 peer_dataloader = DataLoader(peer_dataset, batch_size=batch_size,
                             shuffle=False)
 # In[ ]
-encoder_path = '../models/10-epoch-validation-all-teaching/encoder-epoch-1'
-decoder_path = '../models/10-epoch-validation-all-teaching/decoder-epoch-1'
+encoder_path = 'encoder-epoch-1'
+decoder_path = 'decoder-epoch-1'
 
 hidden_size = 256
 encoder1 = EncoderRNN(4096, hidden_size)

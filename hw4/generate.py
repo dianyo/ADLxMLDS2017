@@ -4,7 +4,6 @@
 # In[1]:
 
 
-get_ipython().run_line_magic('matplotlib', 'inline')
 import torch
 import torch.autograd as autograd
 import torch.nn as nn

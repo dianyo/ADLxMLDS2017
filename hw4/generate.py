@@ -14,8 +14,6 @@ from torch.autograd import Variable
 from torchvision.utils import save_image
 import scipy.misc
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
 
 
 # In[2]:

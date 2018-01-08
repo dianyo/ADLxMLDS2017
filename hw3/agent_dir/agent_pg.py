@@ -55,7 +55,7 @@ class Agent_PG(Agent):
         self.model = PG_Model()
         self.test = args.test_pg
         if args.test_pg:
-            self.model.load_state_dict(torch.load('pg_model_2_800.ckpt'))
+            self.model.load_state_dict(torch.load('pg_model.ckpt'))
             print('loading trained model')
         ##################
         # YOUR CODE HERE #
